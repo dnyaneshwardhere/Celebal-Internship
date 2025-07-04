@@ -142,8 +142,5 @@ def main():
     }
     save_json(eval_metrics, os.path.join(path, "evaluation_metrics.json"))
 
-    print("All results and visualizations saved to your assignment folder.")
-
-
 if __name__ == "__main__":
     main()
